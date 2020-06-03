@@ -1,0 +1,168 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+.header
+{
+    height: 100%;
+    background-image: url("images/shimla.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 20px;
+    text-align: center;
+    color: black;
+    position: relative;
+}
+
+.header img
+{
+    width: 100px;
+    padding-top: 12px;
+    float: left;
+}
+.header h1
+{
+    padding-top: 80px;
+    padding-bottom: 0px;
+    font-size: 55px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.places
+{
+    padding: 100px 0px;
+}
+h1
+{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.restaurants
+{
+    padding: 60px 0px;
+    background: #efefef;
+}
+.shopping
+{
+    padding: 10px 0px;
+    background: #efefef;
+}
+.hotels
+{
+    padding: 100px 0px;
+    background: #efefef;
+}
+.feature-img img
+{
+    width: 100%; 
+}
+
+.price
+{
+    width: 70px;
+    height: 70px;
+    background: tomato;
+    color: white;
+    font-weight: 400;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
+    position: absolute;
+    left: 20px;
+    bottom: -25px;
+
+}
+.feature-img 
+{
+    position: relative;
+}
+.rating
+{
+    padding:3px;
+    float: right;
+    background: white;
+    bottom: -1px;
+    right: 0;
+    position: absolute;
+}
+
+.features .fa
+{
+    font-size:15px ;
+    color:tomato;
+}
+.feature-details
+{
+    padding: 20px;
+    text-align: justify;
+}
+.feature-details h4
+{
+    font-weight: 400;
+    margin-top:20px ;
+    font-size: 20px;
+}
+.feature-details .fa
+{
+    margin-right: 5px;
+}
+
+.feature-box   /* no effect shown in output */
+{
+    box-shadow: 0 0 10x 1px rgba(37,73,214,0.18);
+    margin-bottom:30px ;
+}   
+.restaurants ul{
+    float:right;
+}
+.restaurants img{
+    padding-top: 10px;
+}
+
+.footer
+{
+    color: white;
+    padding: 70px 20px;
+    background: linear-gradient(#2d557d,#9610fb);    
+}
+.footer-logo
+{
+    width: 100px;
+    float: left;   
+}
+.footer h4
+{
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 25px;
+
+}
+.footer p
+{
+    font-size: 12px;
+    text-align: justify;
+    padding-right: 35px;
+}
+.footer .row .fa
+{
+    padding-right: 20px;
+    font-size: 15px;
+}
+.footer hr
+{
+    margin-top: 10px;
+    background: #efefef;
+}
+.fa-heart
+{
+    margin: 0 5px;
+    color: #f44336;
+}
+.footer .copyright
+{
+    text-align: center;
+}.mg img{
+    float:right;
+}
